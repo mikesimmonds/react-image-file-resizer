@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack",
     "test": "jest"
   },
   "repository": {

@@ -2,7 +2,8 @@
 /node_modules
 
 # production
-/build
+# add build to the repo so we can reference it directly in the consuming project (should be a bulld step to npm really)
+#/build
 
 # npm packs
 react-image-file-resizer-0.4.8.tgz
